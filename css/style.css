@@ -22,6 +22,16 @@ body {
     overflow-x: hidden;
 }
 
+a:focus {
+    outline: 1px dotted #E5493A !important;
+    outline-offset: 3px;
+}
+
+button:focus {
+    outline: 1px dotted #E5493A !important;
+    outline-offset: 3px;
+}
+
 
 /*preloader part start*/
 
@@ -1025,6 +1035,11 @@ body {
     background-color: #363636;
     line-height: 43px;
     text-align: center;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 #choose .accordion-button:not(.collapsed) i {
@@ -1557,7 +1572,6 @@ body {
     position: absolute;
     bottom: 7px;
     right: 8px;
-    z-index: 999;
 }
 
 .privacy {

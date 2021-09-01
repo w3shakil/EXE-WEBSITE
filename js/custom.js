@@ -10,12 +10,6 @@ $(function() {
         bgcolor: '#e5493a',
     });
 
-    // portfolio filte-gellary
-
-    var containerEl = document.querySelector('.portfolio-main');
-
-    var mixer = mixitup(containerEl);
-
     // portfolio progress bar
 
     $('.circlechart').circlechart();
@@ -36,6 +30,8 @@ $(function() {
         autoplaySpeed: 5000,
         speed: 1500,
         vertical: true,
+        verticalSwiping: true,
+        pauseOnHover: false,
         arrows: false,
         pauseOnHover: false,
         dots: true,
@@ -86,6 +82,8 @@ $(function() {
         autoplaySpeed: 3000,
         speed: 1500,
         vertical: true,
+        verticalSwiping: true,
+        pauseOnHover: false,
         arrows: false,
         pauseOnHover: false,
         responsive: [{
@@ -184,6 +182,8 @@ $(function() {
         autoplaySpeed: 3000,
         speed: 1500,
         vertical: true,
+        verticalSwiping: true,
+        pauseOnHover: false,
         arrows: false,
         pauseOnHover: false,
         responsive: [{
@@ -265,7 +265,6 @@ $(function() {
         var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
         var scrolled = (winScroll / height) * 100;
         document.getElementsByClassName('bar')[0].style.width = scrolled + "%";
-        document.getElementsByClassName('bar')[1].style.width = scrolled + "%";
     }
 
 

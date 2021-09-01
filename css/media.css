@@ -972,7 +972,7 @@
     /*choose part start*/
     #choose .accordion-item .accordion-button span {
         font-size: 10px;
-        padding: 0 5px 0px 0px;
+        padding: 0 5px 0px 5px;
     }
     #choose .accordion-item .accordion-button p {
         font-weight: 800;
