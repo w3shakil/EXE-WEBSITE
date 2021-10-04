@@ -184,7 +184,7 @@ button:focus {
     color: #898989;
 }
 
-.list .btn,
+#topper .list .btn,
 .list .dropdown-item {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;

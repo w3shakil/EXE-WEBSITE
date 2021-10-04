@@ -54,6 +54,17 @@
         margin-left: 10px;
     }
     /*navbar part end*/
+    /*banner part start*/
+    .banner-overlay h1 {
+        font-size: 65px;
+    }
+    .banner-overlay h1 span {
+        font-size: 48px;
+    }
+    .banner-overlay p {
+        font-size: 25px;
+    }
+    /*banner part end*/
     /*service part start*/
     #service {
         padding-bottom: 40px;
@@ -108,6 +119,10 @@
     }
     .mobile {
         display: none;
+    }
+    #topper .list .btn,
+    .list .dropdown-item {
+        font-size: 11px;
     }
     /* topper part end*/
     /*navbar part start*/
